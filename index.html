@@ -10,11 +10,23 @@
   <link rel="stylesheet" href="./assets/css/main.css">
 
   <!-- JS files -->
-  <script src="./assets/js/main.js"></script>
+  <script defer src="./assets/js/bird.js"></script>
+  <script defer src="./assets/js/background.js"></script>
+  <script defer src="./assets/js/obstacle.js"></script>
+  <script defer src="./assets/js/game.js"></script>
 
-  <title>Document</title>
+  <title>Flappy Bird Js</title>
 </head>
 <body>
+  <main id="game-area">
+    <canvas id="flappy-canvas" height="640" width="360">
+      <h2>A Flappy Bird port using JavaScript</h2>
+      <p>Flappy Bird is a side-scroller where the player controls a bird, attempting to fly between columns of green pipes without hitting them.</p>
+      <p>The original Flappy Bird mobile game is developed by Vietnamese video game artist and programmer Dong Nguyen (Vietnamese: Nguyễn Hà Đông).</p>
+    </canvas>
+  </main>
 
+  <!-- Sprites set to display:none -->
+  <img src="./assets/img/sprite.png" id="sprites">
 </body>
 </html>
