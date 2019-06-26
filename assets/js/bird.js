@@ -41,9 +41,8 @@ class Bird {
       endTheGame();
     }
 
-    // Player can score again now that the pipe is reset itself
     if (obstacleTop.xPos >= 360) {
-      this.scored = false;
+      this.scored = false; // make scoring available once pipe is reset
     }
   }
 
